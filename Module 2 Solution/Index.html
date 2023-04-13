@@ -1,0 +1,137 @@
+<!doctype HTML>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment Solution For Module 2</title>
+ <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: cursive;
+}
+
+.box-1 {
+  border: 1px solid black;
+  background-color: grey;
+  margin-bottom: 15px;
+}
+
+.box-2 {
+  border: 1px solid black;
+  background-color: grey;
+  margin-bottom: 15px;
+}
+
+.box-3 {
+  border: 1px solid black;
+  background-color: grey;
+  margin-bottom: 15px;
+}
+
+.box-1 {
+  position: relative;
+}
+
+.box-2 {
+  position: relative;
+}
+
+.box-3 {
+  position: relative;
+}
+
+#food h2 {
+  position: absolute;
+  top: -21px;
+  right: -1px;
+  border: 1px solid black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+
+.box-1 h2 {
+  background-color: #D49697;
+}
+
+.box-2 h2 {
+  background-color: #C04643;
+}
+
+.box-3 h2 {
+  background-color: #E4D097;
+}
+
+article {
+  margin-top: 40px;
+}
+
+/* For Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  div {
+    float: left;
+  }
+  .box-1 {
+    width: 45%;
+    padding: 10px;
+    margin-right: 25px;
+  }
+  .box-2 {
+    width: 45%;
+    padding: 10px;
+  }
+  .box-3 {
+    width: 93%;
+    padding: 10px;
+  }
+  .container {
+    justify-content: center;
+    margin-left: 5%;
+  }
+  /* For Wide Screen */
+}
+@media screen and (min-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .box-1 {
+    margin-right: 20px;
+    padding: 10px;
+  }
+  .box-2 {
+    margin-right: 20px;
+    padding: 10px;
+  }
+  .box-3 {
+    margin-right: 20px;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
+ </style>
+</head>
+<body>
+  <h1>Our Menu</h1>
+<div class="container" id="food">
+  <div class="box-1"><h2>Chicken</h2> 
+    <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus minima, saepe corrupti dolor velit optio modi harum nesciunt nihil architecto, quibusdam culpa perferendis! Alias amet libero reiciendis ipsam distinctio, ullam voluptatum ab labore reprehenderit tempore eligendi adipisci expedita delectus ad?</article>
+  </div>
+
+  <div class="box-2" id="food"><h2>Beef</h2> 
+    <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus minima, saepe corrupti dolor velit optio modi harum nesciunt nihil architecto, quibusdam culpa perferendis! Alias amet libero reiciendis ipsam distinctio, ullam voluptatum ab labore reprehenderit tempore eligendi adipisci expedita delectus ad?</article>
+    </div>
+
+  <div class="box-3" id="food"><h2>Sushi</h2>
+  <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus minima, saepe corrupti dolor velit optio modi harum nesciunt nihil architecto, quibusdam culpa perferendis! Alias amet libero reiciendis ipsam distinctio, ullam voluptatum ab labore reprehenderit tempore eligendi adipisci expedita delectus ad? <article>
+  </div>
+
+</div>
+</body>
+</html>
+
